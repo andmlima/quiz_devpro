@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.indice),
     path('perguntas', views.perguntas),
-#    path('classificacao', views.classificacao),
+    path('classificacao', views.classificacao),
 ]

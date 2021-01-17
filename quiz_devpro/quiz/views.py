@@ -9,5 +9,5 @@ def indice(requisicao):
 def perguntas(requisicao):
     return render(requisicao, 'quiz/pergunta.html')
 
-#def classificacao(requisicao):
-#    return render(requisicao, 'quiz/classificacao.html')
+def classificacao(requisicao):
+    return render(requisicao, 'quiz/classificacao.html')
