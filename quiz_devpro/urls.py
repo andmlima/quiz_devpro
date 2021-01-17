@@ -21,6 +21,6 @@ from quiz_devpro.quiz import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.indice),
-#    path('perguntas', views.perguntas),
+    path('perguntas', views.perguntas),
 #    path('classificacao', views.classificacao),
 ]
